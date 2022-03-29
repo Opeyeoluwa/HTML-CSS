@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+div#links {
+	background-color:#1B1811;
+	
+	overflow: auto;
+}
+ul {
+	/*below removes d bullets in a lists*/
+	list-style-type: none;
+}
+li[id] {
+	text-align: center;
+	float: right;
+}
+
+li a {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 14px;
+	color: white
+}
+li[id] a:hover{
+	background-color: #F4C2C2;
+	color:red;
+}
+
+input[type=text] {
+	margin: 10px;
+	width: 130px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+   float: right
+}
+
+input[type=text]:hover {
+	border: 4px solid #F4C2C2;
+  	width: 50%;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: algerian;
+	color:#F4C2C2;
+	font-size: 50px;
+}
+
+/*.body::after {
+	clear: both;
+	display: table;
+}
+*/
+.body {
+	width: 20%;
+	float: left
+}
+
+
+.snacks ul {
+	list-style-type: none;
+
+
+}
+
+.one {
+	background-color:#1B1811; 
+	text-transform: uppercase;
+	text-align: center;
+	margin: 8px;
+	padding: 8px;
+	color: white;
+
+
+}
+.one a:hover {
+	color: red;
+	box-shadow: 2px 2px 2px silver;
+}
+
+.two {
+	background-color:#F4C2C2; 
+	text-transform: uppercase;
+	text-align: center;
+	margin: 8px;
+	padding: 8px;
+}
+.two a:hover {
+	color: red;
+	box-shadow: 2px 2px 2px silver;
+}
+
+.three {
+	background-color:#1B1811; 
+	text-transform: uppercase;
+	text-align: center;
+	margin: 8px;
+	padding: 8px;
+}
+.three a:hover {
+	color: red;
+	box-shadow:2px 2px 2px silver;
+}
+
+.four {
+	background-color:#F4C2C2; 
+	text-transform: uppercase;
+	text-align: center;
+	margin: 8px;
+	padding: 8px;
+}
+.four a:hover {
+	color: red;
+	box-shadow: 2px 2px 2px silver;
+}
+
+.para {
+	text-indent: 50px;
+	float: left;
+	font-size: 400%;
+	font-family: algerian;
+	line-height: 80%;
+}
+
+img {
+	cursor: pointer;
+	margin: 10px;
+}
+h2 {
+	font-size: 50px;
+	color:#F4C2C2;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 20px;
+	font-family: algerian;
+}
+
+img:hover {
+	background-color:#FFBCD9;
+}
+
+h4 {
+	font-size: 50px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+footer {
+	border-top: 4px  dashed #F4C2C2; 
+	height: 200px;
+	background-color: #1B1811; 
+	
+}
+#cream{
+	margin: 50px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: algerian;
+}
+
+.cream {
+	margin: 20px;
+	text-align: right;
+	color:#FFBCD9;
+	font-size: 20px
+}

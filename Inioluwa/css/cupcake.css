@@ -1,0 +1,71 @@
+div#links {
+	background-color:#1B1811;
+	overflow: auto;
+}
+ul {
+	/*below removes d bullets in a lists*/
+	list-style-type: none;
+}
+li[id] {
+
+	text-align: center;
+	float: right;
+}
+
+li a {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 14px;
+	color: white
+}
+li[id] a:hover{
+	background-color: #F4C2C2;
+	color:red;
+}
+
+div#head {
+	text-transform: uppercase;
+	font-family: algerian;
+	font-size:50px;
+	color:#F4C2C2;
+	text-align: center;
+}
+
+hr {
+	color: pink;
+}
+p#cupcake {
+	padding: 30px;
+	margin: 15px;
+	text-transform: uppercase;
+	font-family: algerian;
+	font-size:20px;
+	color:#1B1811;
+	text-align: center;
+	
+}
+.vanilla {
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	width: 50%;
+
+}
+h3 {
+	font-size: 40px;
+	color:#F4C2C2;
+}
+.more {
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#1B1811;
+
+
+
+}
+.more:hover {
+	background-color: #F5F5DC;
+	border:3px dashed pink;
+
+}
