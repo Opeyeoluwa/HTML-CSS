@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+	<meta http-equiv="refresh" content="30">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<strong id="demo">This text is strong</strong>
+
+	<script>
+	document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	</script>
+
+
+	<h2>HTML <small>Small</small> Formatting</h2>
+	<h2>HTML <mark>Marked</mark> Formatting</h2>
+	<p>My favorite color is <del>blue</del> red.</p>
+	<p>My favorite <ins>color</ins> is red.</p>
+
+	<p>Here is a quote from WWF's website:</p>
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature.
+	The world's leading conservation organization,
+	WWF works in 100 countries and is supported by
+	1.2 million members in the United States and
+	close to 5 million globally.
+	</blockquote>
+
+	<address>
+	Written by John Doe.<br> 
+	Visit us at:<br>
+	Example.com<br>
+	Box 564, Disneyland<br>
+	USA
+	</address>
+
+	<!--Commenting in html-->
+
+	<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+	<h1 style="background-color:#ff6347;">...</h1>
+	<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+	<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+	<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1> <!--The a portion is for transparency-->
+	<!--hsl(hue, saturation, lightness)
+	Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+	Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+	Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white-->
+
+	<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+	<!--The target defines whether a new window is opened or the same page and other functions-->
+
+	<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+	<!--The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element-->
+
+
+	<!--id uses "#" and class uses "."-->
+	<style>
+	a:link {
+	  color: green; 
+	  background-color: transparent; 
+	  text-decoration: none;
+	}
+
+	a:visited {
+	  color: pink;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+
+	a:hover {
+	  color: red;
+	  background-color: transparent;
+	  text-decoration: underline;
+	}
+
+	a:active {
+	  color: yellow;
+	  background-color: transparent;
+	  text-decoration: underline;
+	}
+
+	body {
+	  background-image: url('example_img_girl.jpg');
+	  background-repeat: no-repeat;
+	  background-attachment: fixed; 
+  	  background-size: cover;
+	}
+	table, th, td {
+  		border: 1px solid black;
+  		border-collapse: collapse; /* border collapse merges the cells*/
+	}
+
+	</style> 
+
+	<picture>
+	  <source media="(min-width: 650px)"srcset="img_food.jpg">
+	  <source media="(min-width: 465px)" srcset="img_car.jpg">
+	  <img src="img_girl.jpg">
+	</picture>
+	<!--The picture tag helps to display different images on different screen sizes-->
+
+	<table style="width:50%"> <!--for creating tables on html-->
+	  <tr>
+	    <th>Firstname</th>
+	    <th>Lastname</th> 
+	    <th>Age</th>
+	  </tr>
+	  <tr>
+	    <td>Jill</td>
+	    <td>Smith</td> 
+	    <td>50</td>
+	  </tr>
+	  <tr>
+	    <td>Eve</td>
+	    <td>Jackson</td> 
+	    <td>94</td>
+	  </tr>
+	</table>
+
+	<iframe src="URL" height="" width=""></iframe>
+	<!--iframe is used to put a website inside another website-->
+
+</body>
+</html>
