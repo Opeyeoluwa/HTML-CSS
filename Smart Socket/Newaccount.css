@@ -1,0 +1,300 @@
+body {
+	color: #fff;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	}
+
+div {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    cursor: default;
+}
+
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: 0;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+}
+
+.signup-form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 15px;
+}
+
+.signup-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-control{
+	height: 40px;
+	box-shadow: none;
+	color: black;
+}
+.form-control:focus{
+	border-color: #5cb85c;
+}
+.form-control, .btn{        
+    border-radius: 3px;
+}
+.signup-form{
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.signup-form h2{
+	color: #636363;
+    margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after{
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before{
+	left: 0;
+}
+.signup-form h2:after{
+	right: 0;
+}
+.signup-form .hint-text{
+	color: black;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form{
+	color: black;
+	border-radius: 3px;
+	margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signup-form .form-group{
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+	margin-top: 3px;
+}
+.signup-form .btn{        
+    font-size: 16px;
+    font-weight: bold;		
+	min-width: 140px;
+    outline: none !important;
+}
+.signup-form .row div:first-child{
+	padding-right: 10px;
+}
+.signup-form .row div:last-child{
+	padding-left: 10px;
+}    
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signup-form a{
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover{
+	text-decoration: none;
+}
+.signup-form form a{
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover{
+	text-decoration: underline;
+}  
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled),[type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+[type=button], [type=reset],[type=submit], button {
+    -webkit-appearance: button;
+}
+
+.form-control, .btn {
+    border-radius: 3px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover{
+    color: #fff;
+    background-color: #084c17;
+    border-color: #084c17;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+    overflow: visible;
+    border-radius: 0;
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+   
+.text-center {
+    text-align: center!important;
+}
