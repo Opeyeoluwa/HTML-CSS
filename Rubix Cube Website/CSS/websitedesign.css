@@ -1,0 +1,80 @@
+.top{
+	background: url(../images/3by3.jpeg.jpg);
+	height: 230px;
+	width: 1300px;
+	margin-left:30px;
+}
+
+h2{
+	text-align: center;
+	color: black;
+}
+
+h4{
+	border-bottom: 2px solid blue;
+	width: 30%;
+}
+
+div ul a{
+	text-decoration: none;
+	color: gold;
+	font-size: 25px;
+	font-family: "Arial Black", serif;
+	padding: 0px 0px 0px 40px;
+}
+
+div ul a:hover, div ul a:active, div ul a:focus{
+	color: red;
+}
+
+div ul{
+	background: black;
+	text-align: center;
+	display: block;
+	height: 30px;
+}
+
+.col{
+	background: skyblue;
+	min-height: 250px;
+	padding: 30px;
+}
+
+.leg{
+	background: white;
+	min-height: 250px;
+	margin: 30px;
+	padding: 20px;
+}
+	
+img{
+	position: center;
+}
+
+input:hover{
+	box-shadow: 10px 10px 10px silver;
+}
+
+input[type=submit], input[type=reset]{
+	background: red;
+	color:white;
+	border-radius: 20%;
+	box-shadow: 5px 5px 5px silver; 
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	background: blue;
+	color:white;
+	border-radius: 20%;
+	box-shadow: 5px 5px 5px silver; 
+}
+
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+.vid{
+	margin: 30px;
+}
